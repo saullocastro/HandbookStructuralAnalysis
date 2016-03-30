@@ -10,6 +10,5 @@ int main()
     returncode = std::min(returncode, BucklingMetalTests());
     returncode = std::min(returncode, ColumnBucklingEulerTests());
 
-    printf(
     return returncode;
 }
