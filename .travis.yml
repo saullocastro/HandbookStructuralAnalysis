@@ -1,9 +1,9 @@
 language: c
 sudo: true
 script:
-  - clang -coverage -O0 hello.c -o hello
-  - ./hello
-  - gcov hello.c
+  - clang -coverage -O0 ./source/HandbookStructuralAnalysisTests.cpp -o run.tests
+  - ./run.tests
+  - gcov ./source/HandbookStructuralAnalysisTests.cpp
 
 #after_success:
 #- bash <(curl -s https://codecov.io/bash)
