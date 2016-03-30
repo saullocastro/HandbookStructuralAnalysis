@@ -11,7 +11,7 @@ The documentation is available on: http://saullocastro.github.io/TODO/
 
 Requirements
 ------------
-- a C compiler
+- a C++ compiler
 
 Licensing
 ---------
