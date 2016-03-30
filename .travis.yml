@@ -1,9 +1,13 @@
 language: cpp
+
 sudo: true
+
+compiler:
+  - gcc
+
 script:
-  - clang -coverage -O0 ./source/HandbookStructuralAnalysisTests.cpp -o run.tests
+  - g++ ./source/HandbookStructuralAnalysisTests.cpp -o run.tests
   - ./run.tests
-  - gcov ./source/HandbookStructuralAnalysisTests.cpp
 
 #after_success:
 #- bash <(curl -s https://codecov.io/bash)
