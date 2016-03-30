@@ -1,4 +1,4 @@
-language: c
+language: cpp
 sudo: true
 script:
   - clang -coverage -O0 ./source/HandbookStructuralAnalysisTests.cpp -o run.tests

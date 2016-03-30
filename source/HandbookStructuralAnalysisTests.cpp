@@ -5,7 +5,7 @@
 
 int main()
 {
-    int returncode = 0;
+    int returncode = 100;
 
     returncode = std::min(returncode, BucklingMetalTests());
     returncode = std::min(returncode, ColumnBucklingEulerTests());
