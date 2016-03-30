@@ -1,3 +1,5 @@
+#pragma once
+
 #include "BucklingMetal.h"
 #include "../TestUtils.h"
 
