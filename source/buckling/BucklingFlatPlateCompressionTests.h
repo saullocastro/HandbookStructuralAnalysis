@@ -2,6 +2,7 @@
 
 #include "BucklingFlatPlateCompression.h"
 #include "../TestUtils.h"
+#include "iostream"
 
 int BucklingFlatPlateCompressionTests()
 {
