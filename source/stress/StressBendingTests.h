@@ -5,7 +5,7 @@
 
 int StressBendingTests()
 {
-    if (IsClose(StressBending(200., 30., 1.e3), 6.0, 1.e-6))
+    if (IsClose(StressBending(200., 30., 1.e3), -6.0, 1.e-6))
     {
         return 0;
     }
