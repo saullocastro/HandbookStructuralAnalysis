@@ -1,3 +1,5 @@
+#pragma once
+
 #include "FatigueKf.h"
 #include "../TestUtils.h"
 
